@@ -3,6 +3,16 @@ body {
     font-family: "Roboto", sans-serif;
 }
 
+.container-wrapper {
+
+}
+
+.container-wrapper--red {
+    background-color:#976811;
+    color: white;
+}
+
+
 .alert-container .col-12 {
     padding-left: 0;
     padding-right: 0;
@@ -61,6 +71,10 @@ body {
     margin-top: 0;
 }
 
+.quotes .page-header {
+    margin-bottom: 25px;
+}
+
 /* block-dividers apply style to <hr>*/
 
 .block-divider {
@@ -74,8 +88,19 @@ body {
     background-color: #976811;
 }
 
+.block-divider--white {
+    background-color: white;
+}
+
 .block-divider--short {
     width: 35px;
+}
+
+/* Content-containers */
+
+.content-container {
+    padding-top: 75px;
+    padding-bottom: 75px;
 }
 
 /* Navbar: turn off the borders and margins set by bootstrap*/
@@ -152,4 +177,29 @@ body {
     background-color:#6e5e6b;
     border-color:#6e5e6b;
     color: #d0d0d0;
+}
+
+/* Features ; i is for the icons*/
+
+.feature {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+/* Replace inline by block to have the larger icons centered above text */
+.feature i {
+    margin-bottom: 20px;
+    font-size: 45px;
+    line-height: 45px;
+}
+
+.feature .btn {
+    background-color: white;
+    border-color: white;
+    border-radius: 15px;
+    min-width: 100px;
+    font-weight: bold;
+    margin-top: 10px;
+    color:#976811;
+
 }
